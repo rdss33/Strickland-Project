@@ -1,0 +1,1 @@
+export const LOREM = "Trevor is very detail-oriented and did a great job, thoroughly cleaning the sidings and windows of my house!"

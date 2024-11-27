@@ -1,0 +1,19 @@
+div.floating-ribbon{
+    border: 2px orangered solid;
+    padding: .7em;
+
+    background: -webkit-linear-gradient(0deg,gray -20%,#09caa9 0%, gray 250%);
+    border-left: 0px;
+    border-right: 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    grid-column: 1 / span 12;
+}
+
+div.floating-ribbon a{
+    text-decoration: none;
+    color: black;
+    grid-column: 2 / span 2;
+    text-align: center;
+}
